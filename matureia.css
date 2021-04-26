@@ -1,0 +1,101 @@
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    background-image: -webkit-linear-gradient(0deg, #88b3f3, #8ee6f1);
+}
+.voltar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute; top: 94.5%; left: 50.6%;
+}
+.txtbemvindo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid 2px white;
+    background: transparent;
+}
+.imgcidade{
+    position: absolute; top: 29.5%; left:76%;
+}
+.imgcomecio{
+    position: absolute; top:29.5%; left:21.3%;
+}
+.imgmapa{
+    position: absolute; top:25%; left:45.5%;
+}
+.imgvoltar {
+    position: absolute; top:90%; left:50%;
+} 
+.mapa{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid  black;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute; top:50%; left:43%;
+}
+    .mapa::before {
+    content: '';
+    position: absolute;
+    background: #0a47f08a;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .0s ease;
+}
+    .mapa:hover::before {
+    width: 100%;
+}
+.comercios{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid black;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute; top:50%; left:14.5%;
+}
+    .comercios::before {
+    content: '';
+    position: absolute;
+    background: #0a47f08a;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition:all .0s ease;
+}
+    .comercios:hover::before {
+    width: 100%;
+}
+.historia{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid black;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    position: absolute; top:50%; left:69%;
+}
+     .historia::before {
+    content: '';
+    position: absolute;
+    background: #0a47f08a;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .0s ease;
+}
+     .historia:hover::before {
+    width: 100%;
+}
+
